@@ -13,6 +13,7 @@ import Protocol
 public class Green : Feature {
     init(){}
     public func create() -> Feature{
+        let _ = Something()
         return Green()
     }
 }
