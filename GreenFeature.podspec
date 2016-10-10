@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source       = { :git => "https://github.com/daher-alfawares/core-green-feature.git", :tag => "#{s.version}" }
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source_files  = "Feature/**/*.{swift}"
+  s.source_files  = "GreenFeature/**/*.{swift}"
   s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

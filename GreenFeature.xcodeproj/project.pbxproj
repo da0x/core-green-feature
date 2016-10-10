@@ -12,7 +12,7 @@
 		4FE5168A1DAC16A400670741 /* GreenFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE516891DAC16A400670741 /* GreenFeatureTests.swift */; };
 		4FE5168C1DAC16A400670741 /* GreenFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE5167E1DAC16A400670741 /* GreenFeature.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FE516961DAC17CD00670741 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FE516951DAC17CD00670741 /* Storyboard.storyboard */; };
-		4FE516981DAC17F300670741 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE516971DAC17F300670741 /* GreenViewController.swift */; };
+		4FE516981DAC17F300670741 /* Green.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE516971DAC17F300670741 /* Green.swift */; };
 		E761DFEF64350621F5409F57 /* Pods_GreenFeature.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A18C2CA2D3430B3A01E597 /* Pods_GreenFeature.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +36,7 @@
 		4FE516891DAC16A400670741 /* GreenFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenFeatureTests.swift; sourceTree = "<group>"; };
 		4FE5168B1DAC16A400670741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FE516951DAC17CD00670741 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
-		4FE516971DAC17F300670741 /* GreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		4FE516971DAC17F300670741 /* Green.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Green.swift; sourceTree = "<group>"; };
 		70886F08E1D3CFD4D12190BF /* Pods-GreenFeature.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenFeature.release.xcconfig"; path = "Pods/Target Support Files/Pods-GreenFeature/Pods-GreenFeature.release.xcconfig"; sourceTree = "<group>"; };
 		8E914A207122B8DF85A99096 /* Pods_GreenFeatureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenFeatureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD858424B6B264DD1C4BD1B2 /* Pods-GreenFeatureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenFeatureTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GreenFeatureTests/Pods-GreenFeatureTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 				4FE5167E1DAC16A400670741 /* GreenFeature.h */,
 				4FE5167F1DAC16A400670741 /* Info.plist */,
 				4FE516951DAC17CD00670741 /* Storyboard.storyboard */,
-				4FE516971DAC17F300670741 /* GreenViewController.swift */,
+				4FE516971DAC17F300670741 /* Green.swift */,
 			);
 			path = GreenFeature;
 			sourceTree = "<group>";
@@ -321,7 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FE516981DAC17F300670741 /* GreenViewController.swift in Sources */,
+				4FE516981DAC17F300670741 /* Green.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
