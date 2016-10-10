@@ -1,0 +1,6 @@
+framework module Pods_GreenFeatureTests {
+  umbrella header "Pods-GreenFeatureTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
